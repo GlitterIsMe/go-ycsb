@@ -38,35 +38,37 @@ import (
 	"github.com/spf13/cobra"
 
 	// Register basic database
-	_ "github.com/pingcap/go-ycsb/db/basic"
+	_ "github.com/GlitterIsMe/go-ycsb/db/basic"
 	// Register MySQL database
-	_ "github.com/pingcap/go-ycsb/db/mysql"
+	_ "github.com/GlitterIsMe/go-ycsb/db/mysql"
 	// Register TiKV database
-	_ "github.com/pingcap/go-ycsb/db/tikv"
+	_ "github.com/GlitterIsMe/go-ycsb/db/tikv"
 	// Register PostgreSQL database
-	_ "github.com/pingcap/go-ycsb/db/pg"
+	_ "github.com/GlitterIsMe/go-ycsb/db/pg"
 	// Register Aerospike database
-	_ "github.com/pingcap/go-ycsb/db/aerospike"
+	_ "github.com/GlitterIsMe/go-ycsb/db/aerospike"
 	// Register Badger database
-	_ "github.com/pingcap/go-ycsb/db/badger"
+	_ "github.com/GlitterIsMe/go-ycsb/db/badger"
 	// Register RocksDB database
-	_ "github.com/pingcap/go-ycsb/db/rocksdb"
+	_ "github.com/GlitterIsMe/go-ycsb/db/rocksdb"
 	// Register Spanner database
-	_ "github.com/pingcap/go-ycsb/db/spanner"
+	_ "github.com/GlitterIsMe/go-ycsb/db/spanner"
 	// Register pegasus database
-	_ "github.com/pingcap/go-ycsb/db/pegasus"
+	_ "github.com/GlitterIsMe/go-ycsb/db/pegasus"
 	// Register sqlite database
-	_ "github.com/pingcap/go-ycsb/db/sqlite"
+	_ "github.com/GlitterIsMe/go-ycsb/db/sqlite"
 	// Register cassandra database
-	_ "github.com/pingcap/go-ycsb/db/cassandra"
+	_ "github.com/GlitterIsMe/go-ycsb/db/cassandra"
 	// Register mongodb database
-	_ "github.com/pingcap/go-ycsb/db/mongodb"
+	_ "github.com/GlitterIsMe/go-ycsb/db/mongodb"
 	// Register redis database
-	_ "github.com/pingcap/go-ycsb/db/redis"
+	_ "github.com/GlitterIsMe/go-ycsb/db/redis"
 	// Register boltdb database
-	_ "github.com/pingcap/go-ycsb/db/boltdb"
+	_ "github.com/GlitterIsMe/go-ycsb/db/boltdb"
 	// Register minio
-	_ "github.com/pingcap/go-ycsb/db/minio"
+	_ "github.com/GlitterIsMe/go-ycsb/db/minio"
+	// Register leveldb
+	_ "github.com/GlitterIsMe/go-ycsb/db/leveldb"
 )
 
 var (
